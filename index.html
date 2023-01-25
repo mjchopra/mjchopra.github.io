@@ -29,7 +29,7 @@
     >
       <!-- This is main div -->
       <div class="myBox">
-        <form id="myForm">
+        <form id="myForm" >
           <div class="mb-3">
             <label for="name" class="form-label">Name</label>
             <input
@@ -37,6 +37,7 @@
               class="form-control"
               id="name"
               aria-describedby="name"
+              required
             />
           </div>
           <div class="mb-3">
@@ -46,6 +47,7 @@
               class="form-control"
               id="email"
               aria-describedby="email"
+              required
             />
             <!-- <div id="email" class="form-text">
               We'll never share your email with anyone else.
@@ -53,7 +55,7 @@
           </div>
           <div class="mb-3">
             <label for="password" class="form-label">Password</label>
-            <input type="password" class="form-control" id="password" />
+            <input type="password" class="form-control" id="password" required/>
           </div>
 
           <div class="mb-3">
@@ -61,9 +63,10 @@
             <input
               type="date"
               class="form-control"
-              min="1968-01-22"
-              max="2005-01-22"
+              min="1968-01-25"
+              max="2005-01-25"
               id="dob"
+              required
             />
           </div>
 
